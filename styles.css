@@ -1,0 +1,242 @@
+body 
+{
+   font-family: 'Montserrat';
+   text-align:center ;
+}
+
+h1,h2,h3,h4,h5
+{
+   font-family: 'Montserrat-bold'
+
+}
+
+/*HEADING SECTIONS*/
+
+.section-heading 
+{
+   font-size: 2rem;
+   line-height: 1.5;
+}
+
+.first-heading
+{
+   font-family: 'Montserrat-black', sans-serif;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+
+/*Section-heading*/
+.colored-section 
+{
+   background-color: #1a8fe3;
+   color: #ffff;
+}
+
+.white-section
+{
+   background-color: #ffff;
+   color: black;
+
+}
+
+.container-fluid
+{
+padding: 6% 14%;
+}
+
+/*title section*/
+
+#title .container-fluid
+{
+   padding: 3% 15% 7%;
+   text-align: left;
+}
+
+.title-img
+
+{
+   width: 60%;
+   transform: rotate(30deg);
+   position: absolute;
+   right: 25px;
+   border: 5px solid #ffff;
+   box-shadow: -10px -10px #c1eeff;
+   /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
+
+}
+
+@media (max-width: 1028px)
+{
+   .title-img
+   {
+      position: static;
+      transform: rotate(0);
+      box-shadow: none;
+      border-width: 0px;
+   }
+
+   #title
+   {
+      text-align: center;
+   }
+
+}
+
+/*NAVIGATION BRAND*/
+.navbar
+{
+   padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+}
+.nav-item
+{
+   padding: 0px 18px;
+}
+.nav-link
+{
+   font-size: 1.5rem;
+   font-family: 'Montserrat-light';
+}
+
+/*DOWNLOAD-BUTTONS*/
+
+.download-button
+{
+   margin: 5% 3% 5% 0%;
+}
+
+/*features*/
+
+
+p
+{
+ color: #8f8f8f;
+}
+
+#features
+{
+   position:relative;
+/*   position: absolute;
+   margin-top: -250px;*/
+}
+
+.features-text
+{
+   line-height: 1.5;
+}
+.feature-button
+{
+   margin: 5% 5% 5% 0%;
+}
+
+.feature-button:hover 
+{
+  color: #1a8fe3;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials
+{
+   background-color: #c1eeff;
+   padding: 2% 2%;
+}
+
+.testimonials-img
+{
+   width: 16%;
+   border-radius: 100%;
+  /* margin: 20px;*/ 
+}
+
+.testimonials-text
+{
+   line-height: 1.5;
+   font-size: 2rem;
+
+}
+
+#press
+{
+   background-color: #c1eeff;
+}
+
+.press-img
+{
+   width: 15%;
+   margin: 10px 10px 25px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #404040;
+}
+
+/*Branches SECTION*/
+#branches
+{
+   margin: 20px 20px 10px;
+   padding: 4% 2%;
+}
+
+.card-group
+{
+   padding: 2% 3% 2%;
+}
+
+.middle
+{
+   background-color: #1a8fe3;
+   color: white;
+}
+.card-img
+{
+   margin: 20px 20px 20px;
+   text-align: center;
+   width:  100px;
+   height: 100px;
+   object-fit: cover;
+}
+
+/*CTA SECTION*/
+
+.call 
+{
+   font-size: 2.5rem;
+   padding-bottom: 3%;
+   font-weight: bold;
+
+}
+/*footer section*/
+.foot-button
+{
+
+   margin: 20px 7px;
+}
+
+.foot-button:hover 
+{
+  color: #1a8fe3;
+}
+a 
+{
+  color:inherit;
+}
+
+#footer
+{
+   margin-top: 2%;
+
+}
+
+.last
+{
+   font-family: 'Montserrat-light';
+   font-weight: 300;
+}
