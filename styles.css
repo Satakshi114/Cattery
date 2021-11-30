@@ -55,10 +55,10 @@ padding: 6% 14%;
 .title-img
 
 {
-   width: 60%;
+   width: 65%;
    transform: rotate(30deg);
    position: absolute;
-   right: 25px;
+   right: 30px;
    border: 5px solid #ffff;
    box-shadow: -10px -10px #c1eeff;
    /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
@@ -120,6 +120,7 @@ p
 #features
 {
    position:relative;
+    z-index: 1;
 /*   position: absolute;
    margin-top: -250px;*/
 }
